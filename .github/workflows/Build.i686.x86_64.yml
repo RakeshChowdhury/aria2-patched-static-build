@@ -3,7 +3,7 @@ name: Build aria2c {i686, x86_64} for {Windows, linux}
 
 on:
   release:
-    types: [published]
+    types: [workflow_dispatch]
 
 jobs:
   build-aria2-mingw:
